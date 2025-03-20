@@ -35,7 +35,7 @@ struct AnimationUpdatedBootcamp: View {
                 
             }
         }
-        .animation(.spring(), value: animate1)
+        .animation(.spring().repeatForever(autoreverses: true), value: animate1)
         .animation(.linear(duration: 5), value: animate2)
         
         // deprecated!

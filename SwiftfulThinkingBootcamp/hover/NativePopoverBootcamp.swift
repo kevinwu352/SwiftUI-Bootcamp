@@ -22,14 +22,15 @@ struct NativePopoverBootcamp: View {
             
             VStack {
                 
-                Spacer()
+
+                //Spacer()
 
                 Button("Provide feedback?") {
                     showPopover.toggle()
                 }
                 .padding(20)
                 .background(Color.yellow)
-                .popover(isPresented: $showPopover, attachmentAnchor: .point(.top), content: {
+                .popover(isPresented: $showPopover, attachmentAnchor: .point(.bottom), content: {
                     ScrollView {
                         VStack(alignment: .leading, spacing: 12, content: {
                             ForEach(feedbackOptions, id: \.self) { option in
@@ -44,8 +45,10 @@ struct NativePopoverBootcamp: View {
                         })
                         .padding(20)
                     }
-                    .presentationCompactAdaptation(.popover)
+                    .presentationCompactAdaptation(.popover) // ios 16.4，传 .sheet 的话是 sheet
                 })
+
+                Spacer()
             }
         }
     }

@@ -15,8 +15,8 @@ struct ToolbarBootcamp: View {
     var body: some View {
         NavigationStack(path: $paths) {
             ZStack {
-                Color.white.ignoresSafeArea()
-                
+                Color.orange.ignoresSafeArea()
+
                 ScrollView {
                     TextField("Placeholder", text: $text)
                     
@@ -32,6 +32,7 @@ struct ToolbarBootcamp: View {
 //                leading: Image(systemName: "heart.fill"),
 //                trailing: Image(systemName: "gear")
 //            )
+            .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .navigationBarLeading) {
                     Image(systemName: "heart.fill")
@@ -47,7 +48,6 @@ struct ToolbarBootcamp: View {
 //            .toolbar(.hidden, for: .navigationBar)
 //            .toolbarBackground(.hidden, for: .navigationBar)
 //            .toolbarColorScheme(.dark, for: .navigationBar)
-            .navigationBarTitleDisplayMode(.inline)
             .toolbarTitleMenu {
                 Button("Screen 1") {
                     paths.append("Screen 1")

@@ -45,7 +45,7 @@ struct EnvironmentObjectBootcamp: View {
             }
             .navigationTitle("iOS Devices")
         }
-        .environmentObject(viewModel)
+        .environmentObject(viewModel) // ios 13
     }
 }
 

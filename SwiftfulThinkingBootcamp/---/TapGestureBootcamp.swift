@@ -40,7 +40,7 @@ struct TapGestureBootcamp: View {
 //                .onTapGesture {
 //                    isSelected.toggle()
 //                }
-                .onTapGesture(count: 2, perform: {
+                .onTapGesture(count: 1, perform: {
                     isSelected.toggle()
                 })
 

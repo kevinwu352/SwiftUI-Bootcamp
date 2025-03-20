@@ -58,7 +58,7 @@ struct MyNextView: View {
             }
         }
         .presentationDetents([.fraction(0.2), .medium, .height(600), .large], selection: $detents)
-        .presentationDragIndicator(.hidden)
+//        .presentationDragIndicator(.hidden)
     }
 }
 

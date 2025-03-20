@@ -14,49 +14,45 @@ struct ButtonStylesBootcamp: View {
             Button {
                 
             } label: {
-                Text("Button Title")
+                Text("automatic")
                     .frame(height: 55)
                     .frame(maxWidth: .infinity)
             }
-            .buttonStyle(.borderedProminent)
+            .buttonStyle(.automatic)
             .buttonBorderShape(.roundedRectangle(radius: 20))
             .controlSize(.large)
 
             
-            Button("Button Title") {
-                
+            Button("plain") {
+
             }
             .frame(height: 55)
             .frame(maxWidth: .infinity)
             .buttonStyle(.plain)
-            .buttonStyle(.borderedProminent)
             .controlSize(.large)
 
-            Button("Button Title") {
-                
+            Button("borderless") {
+
+            }
+            .frame(height: 55)
+            .frame(maxWidth: .infinity)
+            .buttonStyle(.borderless)
+
+            Button("bordered") {
+
             }
             .frame(height: 55)
             .frame(maxWidth: .infinity)
             .controlSize(.regular)
             .buttonStyle(.bordered)
-            .buttonStyle(.borderedProminent)
 
-            Button("Button Title") {
-                
+            Button("borderedProminent") {
+
             }
             .frame(height: 55)
             .frame(maxWidth: .infinity)
             .buttonStyle(.borderedProminent)
-            .controlSize(.small)
-
-            Button("Button Title") {
-                
-            }
-            .frame(height: 55)
-            .frame(maxWidth: .infinity)
-//            .buttonStyle(.borderless)
-            .buttonStyle(.borderedProminent)
-            .controlSize(.mini)
+//            .controlSize(.small)
 
             
         }

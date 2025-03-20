@@ -26,10 +26,7 @@ struct NavigationViewBootcamp: View {
                     HStack {
                         Image(systemName: "person.fill")
                         Image(systemName: "flame.fill")
-                    }
-
-
-                ,
+                    },
                 trailing:
                     NavigationLink(
                     destination: MyOtherScreen(),

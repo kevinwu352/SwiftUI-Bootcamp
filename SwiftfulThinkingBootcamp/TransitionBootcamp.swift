@@ -27,8 +27,8 @@ struct TransitionBootcamp: View {
                 RoundedRectangle(cornerRadius: 30)
                     .frame(height: UIScreen.main.bounds.height * 0.5)
                     .transition(.asymmetric(
-                        insertion: .move(edge: .bottom),
-                        removal: AnyTransition.opacity.animation(.easeInOut)
+                        insertion: .push(from: .trailing), //.move(edge: .bottom),
+                        removal: .push(from: .leading) //AnyTransition.opacity.animation(.easeInOut)
                     ))
             }
             

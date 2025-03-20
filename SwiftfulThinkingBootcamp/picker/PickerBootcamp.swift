@@ -14,17 +14,23 @@ struct PickerBootcamp: View {
         "Most Recent", "Most Popular", "Most Liked"
     ]
     
-    init() {
-        UISegmentedControl.appearance().selectedSegmentTintColor = UIColor.red
-        
-        let attributes: [NSAttributedString.Key:Any] = [
-            .foregroundColor : UIColor.white
-        ]
-        UISegmentedControl.appearance().setTitleTextAttributes(attributes, for: .selected)
-    }
+//    init() {
+//        UISegmentedControl.appearance().selectedSegmentTintColor = UIColor.red
+//        
+//        let attributes: [NSAttributedString.Key:Any] = [
+//            .foregroundColor : UIColor.white
+//        ]
+//        UISegmentedControl.appearance().setTitleTextAttributes(attributes, for: .selected)
+//    }
     
     var body: some View {
-        
+
+        // .segmented
+        // .palette 在 menu 外面的话和 .segmented 一样
+        // .menu 弹窗出来几个选项
+        // .inline / .wheel 滚轮
+        // .navigationLink ???
+
         Picker(
             selection: $selection,
             label: Text("Picker"),
@@ -34,9 +40,10 @@ struct PickerBootcamp: View {
                         .tag(filterOptions[index])
                 }
         })
-            .pickerStyle(SegmentedPickerStyle())
+        .pickerStyle(.segmented)
             //.background(Color.red)
-        
+
+
 //        Picker(
 //            selection: $selection,
 //            label:

@@ -7,8 +7,8 @@
 
 import SwiftUI
 
-@Observable class ObservableViewModel {
-    
+@Observable class ObservableViewModel { // ios 17
+
     var title: String = "Some title"
     //@ObservationIgnored var value: String = "Some title"
 }
@@ -27,13 +27,13 @@ struct ObservableBootcamp: View {
             
             SomeThirdView()
         }
-        .environment(viewModel)
+        .environment(viewModel) // ios 17
     }
 }
 
 struct SomeChildView: View {
     
-    @Bindable var viewModel: ObservableViewModel
+    @Bindable var viewModel: ObservableViewModel // ios 17
     
     var body: some View {
         Button(viewModel.title) {
@@ -44,11 +44,11 @@ struct SomeChildView: View {
 
 struct SomeThirdView: View {
     
-    @Environment(ObservableViewModel.self) var viewModel
-    
+    @Environment(ObservableViewModel.self) var vm
+
     var body: some View {
-        Button(viewModel.title) {
-            viewModel.title = "Third view!!!!!"
+        Button(vm.title) {
+            vm.title = "Third view!!!!!"
         }
     }
 }

@@ -1,5 +1,5 @@
 //
-//  TextfieldBootcamp.swift
+//  TextFieldBootcamp.swift
 //  SwiftfulThinkingBootcamp
 //
 //  Created by Nick Sarno on 1/29/21.
@@ -7,8 +7,8 @@
 
 import SwiftUI
 
-struct TextfieldBootcamp: View {
-    
+struct TextFieldBootcamp: View {
+
     @State var textFieldText: String = ""
     @State var dataArray: [String] = []
     
@@ -49,11 +49,7 @@ struct TextfieldBootcamp: View {
     }
     
     func textIsAppropriate() -> Bool {
-        // check text
-        if textFieldText.count >= 3 {
-            return true
-        }
-        return false
+        textFieldText.count >= 3
     }
     
     func saveText() {
@@ -64,6 +60,6 @@ struct TextfieldBootcamp: View {
 
 struct TextfieldBootcamp_Previews: PreviewProvider {
     static var previews: some View {
-        TextfieldBootcamp()
+        TextFieldBootcamp()
     }
 }

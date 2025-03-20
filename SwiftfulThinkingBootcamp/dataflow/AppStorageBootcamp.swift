@@ -8,19 +8,22 @@
 import SwiftUI
 
 struct AppStorageBootcamp: View {
-    
-    @AppStorage("name") var currentUserName: String?
-    
+
+    init() {
+        let name = UserDefaults.standard.object(forKey: "current-user-name")
+        print("name: \(name)")
+    }
+
+  //@AppStorage("current-user-name") var currentUserName: String?
+    @AppStorage("current-user-name") var currentUserName = "god"
+
     var body: some View {
         VStack(spacing: 20) {
-            Text(currentUserName ?? "Add Name Here")
-            
-            if let name = currentUserName {
-                Text(name)
-            }
-            
+            //Text(currentUserName ?? "--")
+            Text(currentUserName)
+
             Button("Save".uppercased()) {
-                let name: String = "Emily"
+                let name = "Emily"
                 currentUserName = name
             }
         }
