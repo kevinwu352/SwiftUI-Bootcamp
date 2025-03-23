@@ -1,5 +1,5 @@
 //
-//  SwiftfulThinkingBootcampApp.swift
+//  BootcampApp.swift
 //  SwiftfulThinkingBootcamp
 //
 //  Created by Nick Sarno on 1/14/21.
@@ -8,10 +8,11 @@
 import SwiftUI
 
 @main
-struct SwiftfulThinkingBootcampApp: App {
+struct BootcampApp: App {
     var body: some Scene {
         WindowGroup {
-            ScrollViewBootcamp()
+            ContentView()
         }
+        .environment(\.mainPaddingValue, 101)
     }
 }
