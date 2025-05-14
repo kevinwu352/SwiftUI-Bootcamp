@@ -67,14 +67,14 @@
 		02ECC15125CE01970067FF2B /* ColorPickerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECC15025CE01970067FF2B /* ColorPickerBootcamp.swift */; };
 		02F8BE3327417B85007D45BC /* AsyncImageBoocamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F8BE3227417B85007D45BC /* AsyncImageBoocamp.swift */; };
 		02F8BE352741813D007D45BC /* BackgroundMaterialsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F8BE342741813D007D45BC /* BackgroundMaterialsBootcamp.swift */; };
-		02F8BE37274184A8007D45BC /* TextSelectionBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F8BE36274184A8007D45BC /* TextSelectionBootcamp.swift */; };
+		02F8BE37274184A8007D45BC /* TextSelectionBootcamp++++++++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F8BE36274184A8007D45BC /* TextSelectionBootcamp++++++++.swift */; };
 		02F8BE3927418639007D45BC /* ButtonStylesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F8BE3827418639007D45BC /* ButtonStylesBootcamp.swift */; };
 		02F8BE3B27418BC5007D45BC /* ListSwipeActionsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F8BE3A27418BC5007D45BC /* ListSwipeActionsBootcamp.swift */; };
-		02F8BE412741B493007D45BC /* FocusTextFieldBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F8BE402741B493007D45BC /* FocusTextFieldBootcamp.swift */; };
+		02F8BE412741B493007D45BC /* FocusTextFieldBootcamp++++++++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F8BE402741B493007D45BC /* FocusTextFieldBootcamp++++++++.swift */; };
 		02F9DA3225C37AC6003772CC /* AlertBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F9DA3125C37AC6003772CC /* AlertBootcamp.swift */; };
 		02F9DA3625C47E25003772CC /* ActionsheetBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F9DA3525C47E25003772CC /* ActionsheetBootcamp.swift */; };
 		02F9DA3925C4A100003772CC /* ContextMenuBootcamp++++++++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F9DA3825C4A100003772CC /* ContextMenuBootcamp++++++++.swift */; };
-		02F9DA3C25C4AEF9003772CC /* TextFieldBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F9DA3B25C4AEF9003772CC /* TextFieldBootcamp.swift */; };
+		02F9DA3C25C4AEF9003772CC /* TextFieldBootcamp++++++++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F9DA3B25C4AEF9003772CC /* TextFieldBootcamp++++++++.swift */; };
 		02F9DA3F25C4C7A9003772CC /* TextEditorBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F9DA3E25C4C7A9003772CC /* TextEditorBootcamp.swift */; };
 		02FD65E42A145C7D000AEC44 /* NavigationStackBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FD65E32A145C7D000AEC44 /* NavigationStackBootcamp.swift */; };
 		02FD65E62A1463A0000AEC44 /* ToolbarBootcamp++++++++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FD65E52A1463A0000AEC44 /* ToolbarBootcamp++++++++.swift */; };
@@ -151,14 +151,14 @@
 		02ECC15025CE01970067FF2B /* ColorPickerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerBootcamp.swift; sourceTree = "<group>"; };
 		02F8BE3227417B85007D45BC /* AsyncImageBoocamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageBoocamp.swift; sourceTree = "<group>"; };
 		02F8BE342741813D007D45BC /* BackgroundMaterialsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundMaterialsBootcamp.swift; sourceTree = "<group>"; };
-		02F8BE36274184A8007D45BC /* TextSelectionBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSelectionBootcamp.swift; sourceTree = "<group>"; };
+		02F8BE36274184A8007D45BC /* TextSelectionBootcamp++++++++.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TextSelectionBootcamp++++++++.swift"; sourceTree = "<group>"; };
 		02F8BE3827418639007D45BC /* ButtonStylesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStylesBootcamp.swift; sourceTree = "<group>"; };
 		02F8BE3A27418BC5007D45BC /* ListSwipeActionsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSwipeActionsBootcamp.swift; sourceTree = "<group>"; };
-		02F8BE402741B493007D45BC /* FocusTextFieldBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusTextFieldBootcamp.swift; sourceTree = "<group>"; };
+		02F8BE402741B493007D45BC /* FocusTextFieldBootcamp++++++++.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FocusTextFieldBootcamp++++++++.swift"; sourceTree = "<group>"; };
 		02F9DA3125C37AC6003772CC /* AlertBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertBootcamp.swift; sourceTree = "<group>"; };
 		02F9DA3525C47E25003772CC /* ActionsheetBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionsheetBootcamp.swift; sourceTree = "<group>"; };
 		02F9DA3825C4A100003772CC /* ContextMenuBootcamp++++++++.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContextMenuBootcamp++++++++.swift"; sourceTree = "<group>"; };
-		02F9DA3B25C4AEF9003772CC /* TextFieldBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldBootcamp.swift; sourceTree = "<group>"; };
+		02F9DA3B25C4AEF9003772CC /* TextFieldBootcamp++++++++.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TextFieldBootcamp++++++++.swift"; sourceTree = "<group>"; };
 		02F9DA3E25C4C7A9003772CC /* TextEditorBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorBootcamp.swift; sourceTree = "<group>"; };
 		02FD65E32A145C7D000AEC44 /* NavigationStackBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackBootcamp.swift; sourceTree = "<group>"; };
 		02FD65E52A1463A0000AEC44 /* ToolbarBootcamp++++++++.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ToolbarBootcamp++++++++.swift"; sourceTree = "<group>"; };
@@ -205,9 +205,6 @@
 				026094EA25B0DCD40030E091 /* BootcampApp.swift */,
 				0AF6827B2D8FDF41007A6637 /* ContentView.swift */,
 				02D7F14C25E6C31F008FA82D /* DocumentationBootcamp.swift */,
-				02080E6225D1F11D00ED318C /* TabViewBootcamp.swift */,
-				02FD65E52A1463A0000AEC44 /* ToolbarBootcamp++++++++.swift */,
-				02F8BE402741B493007D45BC /* FocusTextFieldBootcamp.swift */,
 				0A20B0D62D8BE266004D4092 /* dataflow */,
 				0A20B0D12D8BDEFC004D4092 /* hover */,
 				0A20B0CF2D8BDD6C004D4092 /* --- */,
@@ -314,9 +311,11 @@
 		0A20B0D32D8BE119004D4092 /* route */ = {
 			isa = PBXGroup;
 			children = (
+				02080E6225D1F11D00ED318C /* TabViewBootcamp.swift */,
 				02FD65E32A145C7D000AEC44 /* NavigationStackBootcamp.swift */,
 				02D1340D25BF7A210087A0C2 /* NavigationViewBootcamp.swift */,
 				028E663E2B65CEF700580761 /* NavigationSplitViewBootcamp.swift */,
+				02FD65E52A1463A0000AEC44 /* ToolbarBootcamp++++++++.swift */,
 			);
 			path = route;
 			sourceTree = "<group>";
@@ -324,9 +323,10 @@
 		0A20B0D52D8BE160004D4092 /* text */ = {
 			isa = PBXGroup;
 			children = (
-				02F9DA3B25C4AEF9003772CC /* TextFieldBootcamp.swift */,
+				02F9DA3B25C4AEF9003772CC /* TextFieldBootcamp++++++++.swift */,
 				02F9DA3E25C4C7A9003772CC /* TextEditorBootcamp.swift */,
-				02F8BE36274184A8007D45BC /* TextSelectionBootcamp.swift */,
+				02F8BE36274184A8007D45BC /* TextSelectionBootcamp++++++++.swift */,
+				02F8BE402741B493007D45BC /* FocusTextFieldBootcamp++++++++.swift */,
 			);
 			path = text;
 			sourceTree = "<group>";
@@ -467,7 +467,7 @@
 				026FB48325B8BEAB005B3661 /* InitializerBootcamp.swift in Sources */,
 				026FB51325BB7FB9005B3661 /* TernaryBootcamp.swift in Sources */,
 				0AF6827C2D8FDF41007A6637 /* ContentView.swift in Sources */,
-				02F8BE37274184A8007D45BC /* TextSelectionBootcamp.swift in Sources */,
+				02F8BE37274184A8007D45BC /* TextSelectionBootcamp++++++++.swift in Sources */,
 				02F9DA3225C37AC6003772CC /* AlertBootcamp.swift in Sources */,
 				02FD65F02A16F626000AEC44 /* AnimationUpdatedBootcamp.swift in Sources */,
 				02FD65E42A145C7D000AEC44 /* NavigationStackBootcamp.swift in Sources */,
@@ -495,7 +495,7 @@
 				028E66412B65DB5600580761 /* GridViewBootcamp.swift in Sources */,
 				02D7F14D25E6C31F008FA82D /* DocumentationBootcamp.swift in Sources */,
 				026FB47A25B77E38005B3661 /* StacksBootcamp.swift in Sources */,
-				02F8BE412741B493007D45BC /* FocusTextFieldBootcamp.swift in Sources */,
+				02F8BE412741B493007D45BC /* FocusTextFieldBootcamp++++++++.swift in Sources */,
 				02080E6625D2068200ED318C /* DarkModeBootcamp.swift in Sources */,
 				0299CD4125ED5E4A0098C0DC /* ProfileView.swift in Sources */,
 				02080E5925D1D6FB00ED318C /* StepperBootcamp.swift in Sources */,
@@ -505,7 +505,7 @@
 				0299CD3E25ED4D4F0098C0DC /* OnboardingView.swift in Sources */,
 				026FB48025B8AAA0005B3661 /* SpacerBootcamp.swift in Sources */,
 				02F8BE352741813D007D45BC /* BackgroundMaterialsBootcamp.swift in Sources */,
-				02F9DA3C25C4AEF9003772CC /* TextFieldBootcamp.swift in Sources */,
+				02F9DA3C25C4AEF9003772CC /* TextFieldBootcamp++++++++.swift in Sources */,
 				0264C5CB2AB8B01B0033070B /* NativePopoverBootcamp++++++++.swift in Sources */,
 				02080E6025D1E33800ED318C /* SliderBootcamp.swift in Sources */,
 				0264C5CF2AB8E0730033070B /* ViewThatFitsBootcamp++++++++.swift in Sources */,

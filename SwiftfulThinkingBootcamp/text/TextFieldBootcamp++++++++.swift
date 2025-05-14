@@ -7,6 +7,13 @@
 
 import SwiftUI
 
+// >>> 绑定的值不一定是 String，给个 format 就行
+//TextField(
+//    "Proper name",
+//    value: $nameComponents,
+//    format: .name(style: .medium)
+//)
+
 struct TextFieldBootcamp: View {
 
     @State var textFieldText: String = ""
