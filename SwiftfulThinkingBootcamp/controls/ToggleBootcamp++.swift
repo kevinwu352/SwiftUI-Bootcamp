@@ -19,7 +19,10 @@ struct ToggleBootcamp: View {
                 Text(toggleIsOn ? "Online" : "Offline")
             }
             .font(.title)
-            
+
+            Toggle("aaa", systemImage: "plus", isOn: $toggleIsOn)
+                .toggleStyle(.button)
+
             Toggle(
                 isOn: $toggleIsOn,
                 label: {
@@ -36,5 +39,32 @@ struct ToggleBootcamp: View {
 struct ToggleBootcamp_Previews: PreviewProvider {
     static var previews: some View {
         ToggleBootcamp()
+    }
+}
+
+
+
+struct EmailList: Identifiable {
+    var id: String
+    var isSubscribed = false
+}
+struct ToggleAdvanced: View {
+    @State var lists = [
+        EmailList(id: "Monthly Updates", isSubscribed: true),
+        EmailList(id: "News Flashes", isSubscribed: true),
+        EmailList(id: "Special Offers", isSubscribed: true)
+    ]
+    var body: some View {
+        Form {
+            Section {
+                ForEach($lists) { $list in
+                    Toggle(list.id, isOn: $list.isSubscribed)
+                }
+            }
+            Section {
+                // >>> 注意这个高级用法
+                Toggle("Subscribe to all", sources: $lists, isOn: \.isSubscribed)
+            }
+        }
     }
 }

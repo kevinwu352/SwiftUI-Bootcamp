@@ -28,6 +28,9 @@ struct TextBootcamp: View {
         // >>> 关注限制行数的用法
         // .lineLimit(2, reservesSpace: true)
         // .lineLimit(2...)
+
+        // >>> 关注这里格式化的用法
+        // Text("\(celsius, specifier: "%.2f") Celsius is \(celsius * 9 / 5 + 32, specifier: "%.2f") Fahrenheit")
     }
 }
 

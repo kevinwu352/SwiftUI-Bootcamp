@@ -12,7 +12,7 @@ struct ViewThatFitsBootcamp: View {
         ZStack {
             Color.red.ignoresSafeArea()
             
-            ViewThatFits {
+            ViewThatFits { // >>> 关注这控件的用法，挺有意思的
                 Text("This is some text that I would like to display to the user!")
                 Text("This is some text that I would like to display!")
                 Text("This is some text!")
