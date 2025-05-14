@@ -13,6 +13,5 @@ struct BootcampApp: App {
         WindowGroup {
             ContentView()
         }
-        .environment(\.mainPaddingValue, 101)
     }
 }

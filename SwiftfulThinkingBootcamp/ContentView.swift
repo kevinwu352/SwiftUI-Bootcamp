@@ -8,10 +8,9 @@
 import SwiftUI
 
 struct ContentView: View {
-    @Environment(\.mainPaddingValue) var mp
-
     var body: some View {
-        Text("env: \(mp)")
+        VStack {
+        }
     }
 }
 
