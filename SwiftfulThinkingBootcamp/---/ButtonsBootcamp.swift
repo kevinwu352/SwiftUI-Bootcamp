@@ -48,6 +48,16 @@ struct ButtonsBootcamp: View {
                             .font(.largeTitle)
                             .foregroundColor(Color(#colorLiteral(red: 0.5807225108, green: 0.066734083, blue: 0, alpha: 1)))
                     )
+                // >>> 可以看出这俩写法效果完全一样，注意 frame 没跟着一起换位置
+//                Image(systemName: "heart.fill")
+//                    .font(.largeTitle)
+//                    .foregroundColor(Color(#colorLiteral(red: 0.5807225108, green: 0.066734083, blue: 0, alpha: 1)))
+//                    .frame(width: 75, height: 75)
+//                    .background(
+//                        Circle()
+//                            .fill(Color.white)
+//                            .shadow(radius: 10)
+//                    )
             })
             
             Button(action: {

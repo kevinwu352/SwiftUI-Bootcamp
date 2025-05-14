@@ -42,7 +42,7 @@ struct ButtonView: View {
             Text("Button")
                 .foregroundColor(.white)
                 .padding()
-                .padding(.horizontal)
+                .padding(.horizontal) // >>> 先是四周增加 padding，再单独给水平方向增加 padding
                 .background(buttonColor)
                 .cornerRadius(10)
         })

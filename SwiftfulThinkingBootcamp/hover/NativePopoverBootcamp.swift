@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct NativePopoverBootcamp: View {
-    
+    // >>> 原生的小弹窗，从被点击按钮的某个位置弹出来，有尖尖
     @State private var showPopover: Bool = false
     @State private var feedbackOptions: [String] = [
         "Very good 🥳",
@@ -23,7 +23,7 @@ struct NativePopoverBootcamp: View {
             VStack {
                 
 
-                //Spacer()
+                Spacer()
 
                 Button("Provide feedback?") {
                     showPopover.toggle()
@@ -45,7 +45,7 @@ struct NativePopoverBootcamp: View {
                         })
                         .padding(20)
                     }
-                    .presentationCompactAdaptation(.popover) // ios 16.4，传 .sheet 的话是 sheet
+                    .presentationCompactAdaptation(.popover) // ios 16.4，传 .sheet 的话会展示成 sheet
                 })
 
                 Spacer()

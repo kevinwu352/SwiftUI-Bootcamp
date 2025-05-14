@@ -207,8 +207,6 @@
 				02FD65E32A145C7D000AEC44 /* NavigationStackBootcamp.swift */,
 				02FD65E52A1463A0000AEC44 /* ToolbarBootcamp.swift */,
 				02F8BE402741B493007D45BC /* FocusTextFieldBootcamp.swift */,
-				02FD65EF2A16F626000AEC44 /* AnimationUpdatedBootcamp.swift */,
-				02D1340425BF436B0087A0C2 /* TransitionBootcamp.swift */,
 				0A20B0D62D8BE266004D4092 /* dataflow */,
 				0A20B0D12D8BDEFC004D4092 /* hover */,
 				0A20B0CF2D8BDD6C004D4092 /* --- */,
@@ -261,6 +259,7 @@
 				026FB48225B8BEAB005B3661 /* InitializerBootcamp.swift */,
 				026FB48525B8CEC5005B3661 /* ForEachBootcamp.swift */,
 				026FB4A025BA0838005B3661 /* ButtonsBootcamp.swift */,
+				02F8BE3827418639007D45BC /* ButtonStylesBootcamp.swift */,
 				026FB4A325BA18D2005B3661 /* StateBootcamp.swift */,
 				026FB4AA25BA47D1005B3661 /* ExtractedFunctionsBootcamp.swift */,
 				026FB4AD25BA525A005B3661 /* ExtractSubviewsBootcamp.swift */,
@@ -280,6 +279,8 @@
 			children = (
 				026FB51525BB9273005B3661 /* AnimationBootcamp-outdated.swift */,
 				026FB51825BBA287005B3661 /* AnimationTimingBootcamp-outdated.swift */,
+				02FD65EF2A16F626000AEC44 /* AnimationUpdatedBootcamp.swift */,
+				02D1340425BF436B0087A0C2 /* TransitionBootcamp.swift */,
 			);
 			path = animation;
 			sourceTree = "<group>";
@@ -350,7 +351,6 @@
 				02080E5825D1D6FB00ED318C /* StepperBootcamp.swift */,
 				02080E5F25D1E33800ED318C /* SliderBootcamp.swift */,
 				02F8BE342741813D007D45BC /* BackgroundMaterialsBootcamp.swift */,
-				02F8BE3827418639007D45BC /* ButtonStylesBootcamp.swift */,
 			);
 			path = controls;
 			sourceTree = "<group>";

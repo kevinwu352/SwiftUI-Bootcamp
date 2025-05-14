@@ -8,9 +8,9 @@
 import SwiftUI
 
 struct ResizableSheetBootcamp: View {
-    
+
     @State private var showSheet: Bool = false
-    @State private var detents: PresentationDetent = .large
+    @State private var detents: PresentationDetent = .large // >>> 用到再来研究
     
     var body: some View {
         Button("Click me!") {

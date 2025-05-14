@@ -10,10 +10,8 @@ import SwiftUI
 struct ButtonStylesBootcamp: View {
     var body: some View {
         VStack {
-            
-            Button {
-                
-            } label: {
+
+            Button { } label: {
                 Text("automatic")
                     .frame(height: 55)
                     .frame(maxWidth: .infinity)
@@ -22,39 +20,29 @@ struct ButtonStylesBootcamp: View {
             .buttonBorderShape(.roundedRectangle(radius: 20))
             .controlSize(.large)
 
-            
-            Button("plain") {
-
-            }
+            Button("plain") { }
             .frame(height: 55)
             .frame(maxWidth: .infinity)
             .buttonStyle(.plain)
             .controlSize(.large)
 
-            Button("borderless") {
-
-            }
+            Button("borderless") { }
             .frame(height: 55)
             .frame(maxWidth: .infinity)
             .buttonStyle(.borderless)
 
-            Button("bordered") {
-
-            }
+            Button("bordered") { }
             .frame(height: 55)
             .frame(maxWidth: .infinity)
             .controlSize(.regular)
             .buttonStyle(.bordered)
 
-            Button("borderedProminent") {
-
-            }
+            Button("borderedProminent") { }
             .frame(height: 55)
             .frame(maxWidth: .infinity)
             .buttonStyle(.borderedProminent)
 //            .controlSize(.small)
 
-            
         }
         .padding()
     }

@@ -11,7 +11,7 @@ struct AppStorageBootcamp: View {
 
     init() {
         let name = UserDefaults.standard.object(forKey: "current-user-name")
-        print("name: \(name)")
+        //print("name: \(name)")
     }
 
   //@AppStorage("current-user-name") var currentUserName: String?

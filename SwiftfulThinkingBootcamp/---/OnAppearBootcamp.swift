@@ -16,7 +16,7 @@ struct OnAppearBootcamp: View {
         NavigationView {
             ScrollView {
                 Text(myText)
-                LazyVStack {
+                LazyVStack { // >>> 整理列表用法的时候关注一下这里
                     ForEach(0..<50) { _ in
                         RoundedRectangle(cornerRadius: 25.0)
                             .frame(height: 200)

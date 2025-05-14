@@ -10,7 +10,7 @@ import SwiftUI
 struct SheetsBootcamp: View {
 
     @State var showSheet: Bool = false
-    
+
     var body: some View {
         ZStack {
             Button("click") {
@@ -28,7 +28,7 @@ struct SheetsBootcamp: View {
 //            SecondScreen()
 //        })
 
-        // 另外三种实现方式
+        // >>> 三种实现弹窗的方式
 
         // METHOD 1 - SHEET
         //        .sheet(isPresented: $showNewScreen, content: {
@@ -55,14 +55,14 @@ struct SheetsBootcamp: View {
 }
 
 struct SecondScreen: View {
-    
+
     @Environment(\.dismiss) var dismiss
 
     var body: some View {
         ZStack(alignment: .topLeading) {
             Color.red
                 .edgesIgnoringSafeArea(.all)
-            
+
             Button(action: {
                 dismiss()
             }, label: {

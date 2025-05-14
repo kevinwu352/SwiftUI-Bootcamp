@@ -20,7 +20,7 @@ struct ShapesBootcamp: View {
             //.stroke(Color.red)
             //.stroke(Color.blue, lineWidth: 30)
             //.stroke(Color.orange, style: StrokeStyle(lineWidth: 30, lineCap: .round, dash: [30]))
-            //.trim(from: 0.4, to: 1.0)
+            //.trim(from: 0.4, to: 1.0) // >>> 对图形切割，起始角度到终止角度，仔细研究研究
 //            .stroke(Color.purple, lineWidth: 50)
             .strokeBorder(Color.red)
             .frame(width: 300, height: 200)

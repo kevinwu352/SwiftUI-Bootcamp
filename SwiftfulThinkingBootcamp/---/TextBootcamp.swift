@@ -24,6 +24,10 @@ struct TextBootcamp: View {
             .foregroundColor(.red)
             .frame(width: 200, height: 100, alignment: .leading)
             .minimumScaleFactor(0.1)
+
+        // >>> 关注限制行数的用法
+        // .lineLimit(2, reservesSpace: true)
+        // .lineLimit(2...)
     }
 }
 
