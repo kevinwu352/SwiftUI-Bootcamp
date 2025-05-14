@@ -8,10 +8,10 @@
 import SwiftUI
 
 struct ToolbarBootcamp: View {
-    
+
     @State private var text: String = ""
     @State private var paths: [String] = []
-    
+
     var body: some View {
         NavigationStack(path: $paths) {
             ZStack {
@@ -19,7 +19,7 @@ struct ToolbarBootcamp: View {
 
                 ScrollView {
                     TextField("Placeholder", text: $text)
-                    
+
                     ForEach(0..<50) { _ in
                         Rectangle()
                             .fill(Color.blue)
@@ -43,12 +43,17 @@ struct ToolbarBootcamp: View {
                         Image(systemName: "gear")
 //                    }
                 }
+//                ToolbarTitleMenu {
+//                    Button("Screen 2") {
+//                        paths.append("Screen 2")
+//                    }
+//                }
             }
 //            .navigationBarHidden(true)
 //            .toolbar(.hidden, for: .navigationBar)
 //            .toolbarBackground(.hidden, for: .navigationBar)
 //            .toolbarColorScheme(.dark, for: .navigationBar)
-            .toolbarTitleMenu {
+            .toolbarTitleMenu { // >>> 在导航条标题后面增加一个下拉菜单，上面那样用也行
                 Button("Screen 1") {
                     paths.append("Screen 1")
                 }
